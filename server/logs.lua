@@ -39,6 +39,7 @@ local Webhooks = {
     ['palert'] = '',
     ['house'] = '',
     ['qbjobs'] = '',
+    ['ps-adminmenu'] = 'https://discord.com/api/webhooks/1345875758207205509/UGRx0IkcgWetwRVk0xvmfoJlxg220MBFOsnl6mOYcRlD0IE3u7VXuvTkbImmhV8li2ic',
 }
 
 local colors = { -- https://www.spycolor.com/
