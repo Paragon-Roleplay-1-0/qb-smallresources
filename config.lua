@@ -1,7 +1,7 @@
 Config = {}
 
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
-Config.PauseMapText = 'Paragon Roleplay'                     -- Text shown above the map when ESC is pressed. If left empty 'FiveM' will appear
+Config.PauseMapText = 'Paragon Roleplay 1.0'                     -- Text shown above the map when ESC is pressed. If left empty 'FiveM' will appear
 Config.HarnessUses = 20
 Config.DamageNeeded = 100.0                                  -- amount of damage till you can push your vehicle. 0-1000
 Config.Logging = 'discord'                                   -- fivemanage
@@ -108,6 +108,8 @@ Config.Consumables = {
         ['whiskey'] = math.random(20, 30),
         ['beer'] = math.random(30, 40),
         ['vodka'] = math.random(20, 40),
+        ['wine'] = math.random(25, 35),
+        ['grapejuice'] = math.random(15, 20),
     },
     custom = { -- put any custom items here
         -- ['newitem'] = {
@@ -165,8 +167,8 @@ Config.BlacklistedScenarios = {
 }
 
 Config.BlacklistedVehs = {
-    [`shamal`] = true,
-    [`luxor`] = true,
+    [`shamal`] = false,
+    [`luxor`] = false,
     [`luxor2`] = true,
     [`jet`] = true,
     [`lazer`] = true,
